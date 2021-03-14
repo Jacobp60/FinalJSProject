@@ -1,0 +1,72 @@
+body {
+    color: green;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+span:hover{
+    cursor: pointer;
+}
+span{
+    margin: 5px;
+}
+.clicked{
+    border: grey solid 2px;
+}
+.selected{
+    border: solid yellow 1px;
+}
+.unselected{
+
+}
+span.chicken{
+    display: block;
+    background-color: green;
+    background-image: url("img/chicken.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span.tank{
+    display: block;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/tank.png");
+    pointer-events: none;
+}
+span.human{
+    display: block;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/human.png");
+}
+span.raygun{
+    display: block;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/raygun.png");
+}
+span.cow{
+    display: block;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/cow.png");
+}
+#Dice-holder{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+#dice-area{
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+}
