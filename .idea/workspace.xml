@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd99dffb-2100-4f43-ad04-062795940408" name="Default Changelist" comment="New Methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cd99dffb-2100-4f43-ad04-062795940408" name="Default Changelist" comment="Almost Done">
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615654313726</updated>
       <workItem from="1615654314781" duration="23734000" />
-      <workItem from="1615702726434" duration="12662000" />
+      <workItem from="1615702726434" duration="13163000" />
     </task>
     <task id="LOCAL-00001" summary="New Methods">
       <created>1615729907991</created>
@@ -66,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615729907991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Almost Done">
+      <created>1615737684219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615737684219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,7 +78,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Methods" />
+    <MESSAGE value="Almost Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1615654877581">
@@ -89,10 +94,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615729381375" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615729910593">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615737686691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615729910593" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615737686691" />
     <state x="0" y="0" width="1441" height="718" key="dock-window-1" timestamp="1615663211375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -103,20 +103,46 @@ function reRollAll() {
     }
 }
 function endTurn(){
-    $("p#humanCount").text(`Human Counter: ${humanCounter}`);
-    $("p#chickenCount").text(`Chicken Counter: ${chickenCounter}`);
-    $("p#cowCount").text(`Cow Counter: ${cowCounter}`);
     $("button#endTurn").hide();
     $("button#reRoll").hide();
 
     if(lost()){
         $("p#messageTurn").text(`Better luck next time fellow extra terrestrial`);
     }else{
-        $("p#messageTurn").text(`Hunting season is good! You've abducted ${humanCounter} humans, ${cowCounter} cows
-        and ${chickenCounter} chickens!`);
+        $("span").each(function () {
+            let i = $(this);
+            if (i.hasClass("cow")) {
+                if(i.hasClass("selected")){
+                    cowCounter++;
+                    i.removeClass("selected");
+                    i.addClass("held");
+                }
+            } else if (i.hasClass("chicken")) {
+                if(i.hasClass("selected")){
+                    chickenCounter++;
+                    i.removeClass("selected");
+                    i.addClass("held");
+                }
+            } else if (i.hasClass("human")) {
+                if(i.hasClass("selected")){
+                    humanCounter++;
+                    i.addClass("held");
+                }
+            } else if (i.hasClass("raygun")) {
+                if(i.hasClass("selected")){
+                    i.addClass("held");
+                }
+            }
+
+        });
         finalCounterChickens += chickenCounter;
         finalCounterCows += cowCounter;
         finalCounterHuman += humanCounter;
+        $("p#humanCount").text(`Human Counter: ${humanCounter}`);
+        $("p#chickenCount").text(`Chicken Counter: ${chickenCounter}`);
+        $("p#cowCount").text(`Cow Counter: ${cowCounter}`);
+        $("p#messageTurn").text(`Hunting season is good! You've abducted ${humanCounter} humans, ${cowCounter} cows
+        and ${chickenCounter} chickens!`);
     }
     $("button#Start").show();
     if(finalCounterChickens > 0 && finalCounterCows > 0 && finalCounterHuman >0){
