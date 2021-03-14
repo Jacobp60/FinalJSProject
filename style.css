@@ -10,9 +10,6 @@ span:hover{
 span{
     margin: 5px;
 }
-.clicked{
-    border: grey solid 2px;
-}
 .selected{
     border: solid yellow 1px;
 }

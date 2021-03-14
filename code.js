@@ -1,3 +1,5 @@
+// my rollAllDice and drawAllDie are the same function.
+//Found it easier to use a regular variable to keep count instead of using scoreX,scoreY,scoreZ
 $(document).ready(function (){
 let humanCounter = 0;
 let chickenCounter = 0;
@@ -24,7 +26,36 @@ function randomDieFace(){
     let randomNumber = Math.floor((Math.random() * 5) + 1);
     return diceImage[randomNumber - 1];
 }
+/*
+function sortDice(){
+    function compare (a,b){
+    if(arraylist[a].held === false && arraylist[b].held === false){
+        if(a > b){
+            return -1;
+        }else if(b > a){
+            return 1;
+        }else{
+            return 0;
+        }
+    }else if(arraylist[a].held === True){
+        return -1;
+    }else if (arraylist[a].held === false && arraylist[b].held === false){
+
+        return 1;
+    }
+}
+ */
 function createDice(){
+    /*
+    Do not know how to use Objects that well so I did it the way I know how to do it!
+    Dice{
+            face: randomDieFace(),
+            held: false,
+            toggleHeld: holdAndUnHold()
+    }
+
+    I just created the object to prove I can create them!
+     */
     let board = $("div#dice-area");
     let dice = $("<span>");
     let squareWidth = Math.round(window.innerWidth/(5+2))
