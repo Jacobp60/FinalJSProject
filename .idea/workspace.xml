@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd99dffb-2100-4f43-ad04-062795940408" name="Default Changelist" comment="FINAL PRODUCT">
+    <list default="true" id="cd99dffb-2100-4f43-ad04-062795940408" name="Default Changelist" comment="FINAL PRODUCT WITH FINISHING TOUCHES">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module2Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,7 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1615654313726</updated>
       <workItem from="1615654314781" duration="23734000" />
-      <workItem from="1615702726434" duration="15199000" />
+      <workItem from="1615702726434" duration="15935000" />
+      <workItem from="1615743373480" duration="1736000" />
     </task>
     <task id="LOCAL-00001" summary="New Methods">
       <created>1615729907991</created>
@@ -79,22 +79,42 @@
       <option name="project" value="LOCAL" />
       <updated>1615738271781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FINAL PRODUCT WITH FINISHING TOUCHES">
+      <created>1615740331906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615740331906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Methods" />
     <MESSAGE value="Almost Done" />
     <MESSAGE value="FINAL PRODUCT" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINAL PRODUCT" />
+    <MESSAGE value="FINAL PRODUCT WITH FINISHING TOUCHES" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL PRODUCT WITH FINISHING TOUCHES" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1615654877581">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1180" y="274" key="FileChooserDialogImpl" timestamp="1615742170781">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615742170781" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615654877581" />
     <state x="829" y="417" key="Github.ShareDialog" timestamp="1615729376946">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -104,10 +124,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="755" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615729381375" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615738274125">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615740334420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615738274125" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615740334420" />
     <state x="0" y="0" width="1441" height="718" key="dock-window-1" timestamp="1615663211375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
