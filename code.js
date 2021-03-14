@@ -6,7 +6,7 @@ let cowCounter = 0;
 let rollCounter = 3;
 let diceArray = [];
 buildGame();
-$("button").submit(reRoll());
+$("button").click(reRoll);
 function buildGame(){
     for(let i = 0; i < 13; i++){
         createDice();
@@ -45,23 +45,30 @@ function holdAndUnHold(){
     }
 }
 function reRoll(){
-    $("span").each(function (){
+    reRollAll();
+    rollCounter--;
+}
+function reRollAll() {
+    $("span").each(function () {
         let i = $(this);
-        if(i.hasClass("cow")){
+        if (i.hasClass("cow")) {
             cowCounter++;
             i.removeClass("cow");
             i.addClass(randomDieFace());
-        }else if(i.hasClass("chicken")){
+        } else if (i.hasClass("chicken")) {
             chickenCounter++;
             i.removeClass("chicken");
             i.addClass(randomDieFace());
-        }else if(i.hasClass("human")){
+        } else if (i.hasClass("human")) {
             chickenCounter++;
             i.removeClass("human");
             i.addClass(randomDieFace());
+        } else if (i.hasClass("tank")) {
+        } else if (i.hasClass("raygun")) {
+            i.removeClass("raygun");
+            i.addClass(randomDieFace());
         }
-    rollCounter--;
-    });
+    })
 }
 function endGame(){
 
